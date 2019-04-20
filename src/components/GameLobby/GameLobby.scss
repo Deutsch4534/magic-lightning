@@ -1,0 +1,48 @@
+.Lobby {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://wallup.net/wp-content/uploads/2016/05/26/221462-digital_art-elements-four_elements-pyramid-fire-water-Earth-air-wind-meteors-rock-sea.jpg)
+}
+
+.LobbyInnerWrapper {
+  flex-grow: 1;
+}
+
+.LobbyVersus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  height: 70%;
+}
+
+.LobbyReadyWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.LobbyReadyButton {
+  width: 200px;
+  height: 45px;
+  background: orange;
+  color: #ffffff;
+  font-size: 1.2em;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.LobbyInviteButton {
+  width: 200px;
+  height: 40px;
+  background: green;
+  color: #ffffff;
+  font-size: 1.2em;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
