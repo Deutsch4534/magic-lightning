@@ -2,7 +2,7 @@ const app = require('express')();
 const server = require('http').Server(app); // eslint-disable-line new-cap
 const io = require('socket.io')(server);
 
-const port = 3000;
+const port = 1996;
 
 /* eslint-disable import/no-extraneous-dependencies, import/newline-after-import */
 // Will be fixed when there is a seperate production server.
