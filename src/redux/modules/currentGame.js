@@ -41,7 +41,7 @@ export function fetchNewGame(force = false) {
 
     dispatch(newGameRequest());
 
-    return fetch('http://localhost:3000/api/game/new', { method: 'post' })
+    return fetch('http://localhost:1996/api/game/new', { method: 'post' })
       .then(checkSuccessStatus)
       .then(toJSON)
       .then((json) => {
