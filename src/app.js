@@ -16,7 +16,7 @@ if (module.hot) {
   module.hot.accept();
 }
 
-const socket = socketClient('http://localhost:3000');
+const socket = socketClient('http://localhost:1996');
 const store = configureStore(getInitialState(), socket);
 dispatchServerActions(store, socket);
 dispatchNewGameAction(store, socket);
