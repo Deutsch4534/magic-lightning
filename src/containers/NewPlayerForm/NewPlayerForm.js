@@ -33,12 +33,13 @@ export default class NewPlayerForm extends Component {
       <form onSubmit={this.onSubmitHandler}>
         <FormInput
           type="text"
+          className="form-control"
           onChange={this.onChangeHandler}
           value={this.state.nameInput}
-          placeholder="Your username here"
+          placeholder="Your Satoshis Games username here"
           base
-        />
-        <input type="submit" value="Save" />
+        />&nbsp;&nbsp;
+        <input className="btn btn-secondary" type="submit" value="START" />
       </form>
     );
   }
