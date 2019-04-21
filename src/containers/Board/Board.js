@@ -21,7 +21,7 @@ export const Board = ({ yourTurn, player, opponent, actions }) => (
     <PlayerSide>
       <Player {...player} yourTurn={yourTurn} actions={actions} />
     </PlayerSide>
-    <button onClick={actions.endTurn} disabled={!yourTurn}>End turn</button>
+    <button className="btn btn-danger" onClick={actions.endTurn} disabled={!yourTurn}>End turn</button>
   </div>
 );
 
