@@ -8,11 +8,13 @@
   height: 47vh;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .CardCanDrag {
   border: 2px solid rgb(0, 255, 0);
   box-shadow: 0px 0px 20px rgb(0, 255, 0);
+  cursor: pointer;
 }
 
 .CardYours {
