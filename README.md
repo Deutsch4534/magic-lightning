@@ -1,4 +1,4 @@
-React with Redux -- Card Game (WIP)
+Magic Lightning
 =============================
 
 [![Build Status](https://travis-ci.org/inooid/react-redux-card-game.svg?branch=master)](https://travis-ci.org/inooid/react-redux-card-game)
