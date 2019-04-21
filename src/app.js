@@ -16,7 +16,7 @@ if (module.hot) {
   module.hot.accept();
 }
 
-const socket = socketClient('http://localhost:1996');
+const socket = socketClient('https://magic.satoshis.games');
 const store = configureStore(getInitialState(), socket);
 dispatchServerActions(store, socket);
 dispatchNewGameAction(store, socket);
