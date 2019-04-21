@@ -39,7 +39,12 @@ export default class NewPlayerForm extends Component {
           placeholder="Your Satoshis Games username here"
           base
         />&nbsp;&nbsp;
-        <input className="btn btn-secondary" type="submit" value="START" />
+        <input className="btn btn-secondary startt" type="submit" value="START" />
+        <style>{"\
+                .startt{\
+                  cursor: pointer;\
+                }\
+              "}</style>
       </form>
     );
   }
