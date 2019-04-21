@@ -76,8 +76,13 @@ export class StartScreen extends Component {
              { playerName ? (
           <div>
             <center>
-            <a className="btn btn-primary btn-lg" href="#/game/new" role="button">New game</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a className="btn btn-info btn-lg" href="#//game/join" role="button">Join game</a>
+            <a className="btn btn-primary btn-lg startt" href="#/game/new" role="button">New game</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <style>{"\
+                .startt{\
+                  cursor: pointer;\
+                }\
+              "}</style>
+            <a className="btn btn-info btn-lg startt" href="#//game/join" role="button">Join game</a>
             </center>
           </div>
         ) : (
