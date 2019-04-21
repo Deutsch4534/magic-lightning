@@ -37,7 +37,7 @@ const GameLobby = ({
             button={
               <div>
                 <br></br>
-                <button className={styles.LobbyInviteButton} onClick={openFriendInviteModal}>Invite friend</button>
+                <button className="btn btn-info" onClick={openFriendInviteModal}>Invite friend</button>
                 <InvitePlayerModal
                   inviteLink={inviteLink}
                   isOpen={friendInviteModal.isOpen}
@@ -49,7 +49,7 @@ const GameLobby = ({
         )}
       </section>
       <div className={styles.LobbyReadyWrapper}>
-        <button className={styles.LobbyReadyButton} onClick={toggleReady}>
+        <button className="btn btn-success" onClick={toggleReady}>
           {player.ready ? 'Unready' : 'I am ready!'}
         </button>
       </div>
