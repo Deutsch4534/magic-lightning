@@ -15,8 +15,11 @@ import './styles/app.scss';
 if (module.hot) {
   module.hot.accept();
 }
-
+// PRODUCTION
 const socket = socketClient('https://magic.satoshis.games');
+
+// DEVELOPMENT
+//const socket = socketClient('/');
 const store = configureStore(getInitialState(), socket);
 dispatchServerActions(store, socket);
 dispatchNewGameAction(store, socket);

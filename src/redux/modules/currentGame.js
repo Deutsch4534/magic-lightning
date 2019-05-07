@@ -40,7 +40,7 @@ export function fetchNewGame(force = false) {
     if (!shouldFetchNewGame(getState(), force)) return Promise.resolve();
 
     dispatch(newGameRequest());
-
+    // PRODUCTION
     return fetch('https://magic.satoshis.games/api/game/new', { method: 'post' })
       .then(checkSuccessStatus)
       .then(toJSON)
@@ -49,6 +49,16 @@ export function fetchNewGame(force = false) {
         return json.gameId;
       })
       .catch((errors) => { dispatch(newGameFailure({ errors })); });
+
+      // DEVELOPMENT
+      // return fetch('/api/game/new', { method: 'post' })
+      // .then(checkSuccessStatus)
+      // .then(toJSON)
+      // .then((json) => {
+      //   dispatch(newGameSuccess(json));
+      //   return json.gameId;
+      // })
+      // .catch((errors) => { dispatch(newGameFailure({ errors })); });
   };
 }
 
