@@ -1,4 +1,4 @@
-# Lightning Monopoly
+# Magic Lightning
 Turn-based card game between two opponents, using constructed decks of RPG cards with a crypto theme. Players use their limited mana crystals to play abilities or summon creatures to attack the opponent. Cash out their sats when you win!
 
 ## Getting Started
