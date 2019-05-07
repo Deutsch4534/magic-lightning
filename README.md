@@ -1,33 +1,35 @@
-Magic Lightning
-=============================
+# Lightning Monopoly
+Turn-based card game between two opponents, using constructed decks of RPG cards with a crypto theme. Players use their limited mana crystals to play abilities or summon creatures to attack the opponent. Cash out their sats when you win!
 
-[![Build Status](https://travis-ci.org/inooid/react-redux-card-game.svg?branch=master)](https://travis-ci.org/inooid/react-redux-card-game)
-[![Code Climate](https://codeclimate.com/github/inooid/react-redux-card-game/badges/gpa.svg)](https://codeclimate.com/github/inooid/react-redux-card-game)
+## Getting Started
 
-In order to develop my abstract thinking I figured it would be cool to make a game.
-Recently I have been playing a lot of [Hearthstone: Heroes of Warcraft](http://us.battle.net/en/int?r=hearthstone)
-and I realised that it would be great practice to rebuild it using [React](https://facebook.github.io/react/) with [Redux](http://redux.js.org/).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Follow me in the journey that will be rebuilding this amazing card game.
+### Prerequisites
 
-I am in no way affiliated with *Blizzard Entertainment* or *Hearthstone: Heroes of Warcraft* and see this
-project as part of my learning experience.
-
-Requirements
-------------
-
-* node `^4.2.0`
-* npm `^3.0.0`
-
-Getting Started
----------------
-
-Just clone the repo and install the necessary node modules:
-
+Install dependencies:
+1. Clone this repository
 ```shell
-$ git clone https://github.com/inooid/react-redux-card-game.git
-$ cd react-redux-card-game
+$ git clone https://github.com/Satoshis-Games/magic-lightning
+$ cd maigc-lightning
 $ npm install  # Install Node modules listed in ./package.json (may take a while the first time)
 $ npm start    # Compile and launch
 $ open http://localhost:1996
 ```
+## Built With
+
+* [REACT](https://reactjs.org/) - The web framework used
+* [NPM](https://www.npmjs.com/) - Dependency Management
+* [SOCKET.IO](https://socket.io/) - Used to generate web socket channels
+* [MONGODB](https://www.mongodb.com/) - Database 
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/whiteyhat/858dee933e28cc5184c8f5e192620151) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the GNU GPL v3 License - see the [GNU GPL v3](https://github.com/Satoshis-Games/magic-lightning/blob/master/LICENSE) file for details
+
+## Acknowledgments
+
+* Fork us and contribute!
