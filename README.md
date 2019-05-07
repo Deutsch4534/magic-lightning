@@ -33,3 +33,5 @@ This project is licensed under the GNU GPL v3 License - see the [GNU GPL v3](htt
 ## Acknowledgments
 
 * Fork us and contribute!
+
+![magic](https://user-images.githubusercontent.com/31220861/57339042-bb353380-7127-11e9-8022-33348291cfcc.gif)
